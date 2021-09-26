@@ -1,48 +1,531 @@
+// CURSOR TEXT
+
+$(document).mousemove(function(e){
+	$('.hi-concrete').css({'top': e.clientY + 5, 'left': e.clientX + 5})
+})
+
+$(document).mousemove(function(e){
+	$('.view-live-site').css({'top': e.clientY + 5, 'left': e.clientX + 5})
+})
+
+$('.outside').hover(
+	function(){
+		$('.hi-concrete').css({'display':'none'})
+		$('.view-live-site').css({'display':'block'})
+	}, function(){
+		$('.hi-concrete').css({'display':'block'})
+		$('.view-live-site').css({'display':'none'})
+	}
+)
+
+
+
+
+// SCROLL making footer navi disappear
+
+$(document).ready(function(){
+	$(window).scroll(function(){
+		alert('hi')
+		$('.footer').removeClass('footer-appear')
+	})
+})
+
+
+
+
+
+// HOVER IMAGE following mouse
+
+$(document).mousemove(function(e){
+	$('.hoverimg').css({'top': e.clientY + 16, 'left': e.clientX - 0})
+})
+
+///////////
+
+$('.header.more.intro.defunkt1').hover(
+	function(){
+		$('.hoverimg.defunkt1').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.defunkt1').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.defunkt2').hover(
+	function(){
+		$('.hoverimg.defunkt2').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.defunkt2').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.defunkt3').hover(
+	function(){
+		$('.hoverimg.defunkt3').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.defunkt3').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.defunkt4').hover(
+	function(){
+		$('.hoverimg.defunkt4').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.defunkt4').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.defunkt5').hover(
+	function(){
+		$('.hoverimg.defunkt5').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.defunkt5').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.defunkt6').hover(
+	function(){
+		$('.hoverimg.defunkt6').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.defunkt6').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.rave1').hover(
+	function(){
+		$('.hoverimg.rave1').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.rave1').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.rave2').hover(
+	function(){
+		$('.hoverimg.rave2').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.rave2').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.rave3').hover(
+	function(){
+		$('.hoverimg.rave3').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.rave3').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.seminars1').hover(
+	function(){
+		$('.hoverimg.seminars1').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.seminars1').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.seminars2').hover(
+	function(){
+		$('.hoverimg.seminars2').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.seminars2').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.seminars3').hover(
+	function(){
+		$('.hoverimg.seminars3').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.seminars3').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.lpl1').hover(
+	function(){
+		$('.hoverimg.lpl1').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.lpl1').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.lpl2').hover(
+	function(){
+		$('.hoverimg.lpl2').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.lpl2').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.lpl3').hover(
+	function(){
+		$('.hoverimg.lpl3').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.lpl3').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.lpl4').hover(
+	function(){
+		$('.hoverimg.lpl4').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.lpl4').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.lpl5').hover(
+	function(){
+		$('.hoverimg.lpl5').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.lpl5').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.lpl6').hover(
+	function(){
+		$('.hoverimg.lpl6').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.lpl6').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.lpl7').hover(
+	function(){
+		$('.hoverimg.lpl7').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.lpl7').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.lpl8').hover(
+	function(){
+		$('.hoverimg.lpl8').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.lpl8').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.lpl9').hover(
+	function(){
+		$('.hoverimg.lpl9').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.lpl9').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.lpl10').hover(
+	function(){
+		$('.hoverimg.lpl10').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.lpl10').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.lpl11').hover(
+	function(){
+		$('.hoverimg.lpl11').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.lpl11').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+
+
+
+
+// FOOTER
+
+$('.in-page.chapter').hover(function(){
+	$('.in-page.arrow').toggleClass('arrow-appear')
+})
+
+
+/////// opacity of chapters depending on the chapter you're current on
+
+$('.in-page.chapter.a').click(
+	function(){
+		$('.footer').toggleClass('footer-appear')
+		$('.fixed.chapter').addClass('dim')
+		$(this).toggleClass('dim')
+		$('.in-page.arrow').toggleClass('dim')
+
+		$('.fixed.chapter.a').removeClass('dim')
+		$('.fixed.chapter.a').addClass('bright')
+})
+
+$('.in-page.chapter.b').click(
+	function(){
+		$('.footer').toggleClass('footer-appear')
+		$('.fixed.chapter').addClass('dim')
+		$(this).toggleClass('dim')
+		$('.in-page.arrow').toggleClass('dim')
+
+		$('.fixed.chapter.b').removeClass('dim')
+		$('.fixed.chapter.b').addClass('bright')
+})
+
+$('.in-page.chapter.c').click(
+	function(){
+		$('.footer').toggleClass('footer-appear')
+		$('.fixed.chapter').addClass('dim')
+		$(this).toggleClass('dim')
+		$('.in-page.arrow').toggleClass('dim')
+
+		$('.fixed.chapter.c').removeClass('dim')
+		$('.fixed.chapter.c').addClass('bright')
+})
+
+$('.in-page.chapter.d').click(
+	function(){
+		$('.footer').toggleClass('footer-appear')
+		$('.fixed.chapter').addClass('dim')
+		$(this).toggleClass('dim')
+		$('.in-page.arrow').toggleClass('dim')
+
+		$('.fixed.chapter.d').removeClass('dim')
+		$('.fixed.chapter.d').addClass('bright')
+})
+
+$('.in-page.chapter.e').click(
+	function(){
+		$('.footer').toggleClass('footer-appear')
+		$('.fixed.chapter').addClass('dim')
+		$(this).toggleClass('dim')
+		$('.in-page.arrow').toggleClass('dim')
+
+		$('.fixed.chapter.e').removeClass('dim')
+		$('.fixed.chapter.e').addClass('bright')
+})
+
+$('.in-page.chapter.f').click(
+	function(){
+		$('.footer').toggleClass('footer-appear')
+		$('.fixed.chapter').addClass('dim')
+		$(this).toggleClass('dim')
+		$('.in-page.arrow').toggleClass('dim')
+
+		$('.fixed.chapter.f').removeClass('dim')
+		$('.fixed.chapter.f').addClass('bright')
+})
+
+$('.in-page.chapter.g').click(
+	function(){
+		$('.footer').toggleClass('footer-appear')
+		$('.fixed.chapter').addClass('dim')
+		$(this).toggleClass('dim')
+		$('.in-page.arrow').toggleClass('dim')
+
+		$('.fixed.chapter.g').removeClass('dim')
+		$('.fixed.chapter.g').addClass('bright')
+})
+
+$('.fixed.chapter').hover(
+	function(){
+		$(this).removeClass('dim')
+		$(this).addClass('bright')
+	}, function(){
+		$(this).removeClass('bright')
+		$(this).addClass('dim')
+	}
+)
+
+
+/////// chapter links
+
+$('.fixed.chapter.a').click(function(){
+	$('div.page.landing').removeClass('up')
+	$('div.page.landing').addClass('down')
+})
+
+$('.fixed.chapter.b').click(function(){
+	$('div.page.page1').removeClass('up')
+	$('div.page.page1').addClass('down')
+})
+
+$('.fixed.chapter.c').click(function(){
+	$('div.page.page2').removeClass('up')
+	$('div.page.page2').addClass('down')
+})
+
+$('.fixed.chapter.d').click(function(){
+	$('div.page.page3').removeClass('up')
+	$('div.page.page3').addClass('down')
+})
+
+$('.fixed.chapter.e').click(function(){
+	$('div.page.page4').removeClass('up')
+	$('div.page.page4').addClass('down')
+})
+
+$('.fixed.chapter.f').click(function(){
+	$('div.page.page5').removeClass('up')
+	$('div.page.page5').addClass('down')
+})
+
+$('.fixed.chapter.gb').click(function(){
+	$('div.page.page6').removeClass('up')
+	$('div.page.page6').addClass('down')
+})
+
+
+
+
 // CLICK TO NEXT PAGE
 
 $('.next.landing').click(function(){
 	$('div.page.landing').removeClass('down')
 	$('div.page.landing').addClass('up')
+	$('.bg-img-wrapper.landing').removeClass('down')
+	$('.bg-img-wrapper.landing').addClass('up')
+
+	$('.footer').removeClass('footer-appear')
+	$('.in-page.arrow').removeClass('arrow-appear')
 })
 
 $('.next.page1').click(function(){
 	$('div.page.page1').removeClass('down')
 	$('div.page.page1').addClass('up')
+	$('.bg-img-wrapper.page1').removeClass('down')
+	$('.bg-img-wrapper.page1').addClass('up')
+
+	$('.footer').removeClass('footer-appear')
+	$('.in-page.arrow').removeClass('arrow-appear')
 })
 
 $('.next.page2').click(function(){
 	$('div.page.page2').removeClass('down')
 	$('div.page.page2').addClass('up')
+	$('.bg-img-wrapper.page2').removeClass('down')
+	$('.bg-img-wrapper.page2').addClass('up')
+
+	$('.footer').removeClass('footer-appear')
+	$('.in-page.arrow').removeClass('arrow-appear')
 })
 
 $('.next.page3').click(function(){
 	$('div.page.page3').removeClass('down')
 	$('div.page.page3').addClass('up')
+	$('.bg-img-wrapper.page3').removeClass('down')
+	$('.bg-img-wrapper.page3').addClass('up')
+
+	$('.footer').removeClass('footer-appear')
+	$('.in-page.arrow').removeClass('arrow-appear')
 })
 
 $('.next.page4').click(function(){
 	$('div.page.page4').removeClass('down')
 	$('div.page.page4').addClass('up')
+	$('.bg-img-wrapper.page4').removeClass('down')
+	$('.bg-img-wrapper.page4').addClass('up')
+
+	$('.footer').removeClass('footer-appear')
+	$('.in-page.arrow').removeClass('arrow-appear')
 })
 
 $('.next.page5').click(function(){
 	$('div.page.page5').removeClass('down')
 	$('div.page.page5').addClass('up')
+	$('.bg-img-wrapper.page5').removeClass('down')
+	$('.bg-img-wrapper.page5').addClass('up')
+
+	$('.footer').removeClass('footer-appear')
+	$('.in-page.arrow').removeClass('arrow-appear')
 })
 
 $('.next.page6').click(function(){
 	$('div.page.page6').removeClass('down')
 	$('div.page.page6').addClass('up')
+	$('.bg-img-wrapper.page6').removeClass('down')
+	$('.bg-img-wrapper.page6').addClass('up')
+
+	$('.footer').removeClass('footer-appear')
+	$('.in-page.arrow').removeClass('arrow-appear')
 })
 
 $('.next.page7').click(function(){
 	$('div.page.page7').removeClass('down')
 	$('div.page.page7').addClass('up')
+	$('.bg-img-wrapper.page7').removeClass('down')
+	$('.bg-img-wrapper.page7').addClass('up')
+
+	$('.footer').removeClass('footer-appear')
+	$('.in-page.arrow').removeClass('arrow-appear')
 })
 
 $('.next.page8').click(function(){
 	$('div.page.page8').removeClass('down')
 	$('div.page.page8').addClass('up')
+	$('.bg-img-wrapper.page8').removeClass('down')
+	$('.bg-img-wrapper.page8').addClass('up')
+
+	$('.footer').removeClass('footer-appear')
+	$('.in-page.arrow').removeClass('arrow-appear')
 })
 
 
@@ -51,41 +534,81 @@ $('.next.page8').click(function(){
 $('.back.page1').click(function(){
 	$('div.page.landing').removeClass('up')
 	$('div.page.landing').addClass('down')
+	$('.bg-img-wrapper.landing').removeClass('up')
+	$('.bg-img-wrapper.landing').addClass('down')
+
+	$('.footer').removeClass('footer-appear')
+	$('.in-page.arrow').removeClass('arrow-appear')
 })
 
 $('.back.page2').click(function(){
 	$('div.page.page1').removeClass('up')
 	$('div.page.page1').addClass('down')
+	$('.bg-img-wrapper.page1').removeClass('up')
+	$('.bg-img-wrapper.page1').addClass('down')
+
+	$('.footer').removeClass('footer-appear')
+	$('.in-page.arrow').removeClass('arrow-appear')
 })
 
 $('.back.page3').click(function(){
 	$('div.page.page2').removeClass('up')
 	$('div.page.page2').addClass('down')
+	$('.bg-img-wrapper.page2').removeClass('up')
+	$('.bg-img-wrapper.page2').addClass('down')
+
+	$('.footer').removeClass('footer-appear')
+	$('.in-page.arrow').removeClass('arrow-appear')
 })
 
 $('.back.page4').click(function(){
 	$('div.page.page3').removeClass('up')
 	$('div.page.page3').addClass('down')
+	$('.bg-img-wrapper.page3').removeClass('up')
+	$('.bg-img-wrapper.page3').addClass('down')
+
+	$('.footer').removeClass('footer-appear')
+	$('.in-page.arrow').removeClass('arrow-appear')
 })
 
 $('.back.page5').click(function(){
 	$('div.page.page4').removeClass('up')
 	$('div.page.page4').addClass('down')
+	$('.bg-img-wrapper.page4').removeClass('up')
+	$('.bg-img-wrapper.page4').addClass('down')
+
+	$('.footer').removeClass('footer-appear')
+	$('.in-page.arrow').removeClass('arrow-appear')
 })
 
 $('.back.page6').click(function(){
 	$('div.page.page5').removeClass('up')
 	$('div.page.page5').addClass('down')
+	$('.bg-img-wrapper.page5').removeClass('up')
+	$('.bg-img-wrapper.page5').addClass('down')
+
+	$('.footer').removeClass('footer-appear')
+	$('.in-page.arrow').removeClass('arrow-appear')
 })
 
 $('.back.page7').click(function(){
 	$('div.page.page6').removeClass('up')
 	$('div.page.page6').addClass('down')
+	$('.bg-img-wrapper.page6').removeClass('up')
+	$('.bg-img-wrapper.page6').addClass('down')
+
+	$('.footer').removeClass('footer-appear')
+	$('.in-page.arrow').removeClass('arrow-appear')
 })
 
 $('.back.page8').click(function(){
 	$('div.page.page7').removeClass('up')
 	$('div.page.page7').addClass('down')
+	$('.bg-img-wrapper.page7').removeClass('up')
+	$('.bg-img-wrapper.page7').addClass('down')
+
+	$('.footer').removeClass('footer-appear')
+	$('.in-page.arrow').removeClass('arrow-appear')
 })
 
 
@@ -101,1074 +624,254 @@ $('.back.page8').click(function(){
 // LANDING PAGE IMAGE HOVER
 
 
-$('span.landing.cat').hover(
-	function(){
-		$(this).addClass('italic');
-		$(this).addClass('cat-hovering');
-		$(this).css({'cursor':'crosshair','letter-spacing':'-0.1rem'});
-	}, function(){
-		$(this).removeClass('italic');
-		$(this).removeClass('cat-hovering');
-		$(this).css({'cursor':'default','letter-spacing':'0rem'});
-	}
-)
+// $('span.landing.cat').hover(
+// 	function(){
+// 		$(this).addClass('italic');
+// 		$(this).addClass('cat-hovering');
+// 		$(this).css({'cursor':'crosshair','letter-spacing':'-0.1rem'});
+// 	}, function(){
+// 		$(this).removeClass('italic');
+// 		$(this).removeClass('cat-hovering');
+// 		$(this).css({'cursor':'default','letter-spacing':'0rem'});
+// 	}
+// )
 
-
-$('span.landing.cat.type-design').hover(
-	function(){
-		$('img.bg-img').css({'display':'none'})
-		$('img.bg-img.type-design').css({'display':'block'})
-	}, function(){
-		$('img.bg-img.type-design').css({'display':'none'})
-	}
-)
-
-$('span.landing.cat.web').hover(
+$('span.header.more.intro.me1').hover(
 	function(){
 		$('img.bg-img').css({'display':'none'})
-		$('img.bg-img.web').css({'display':'block'})
+		$('img.bg-img.me1').css({'display':'block'})
 	}, function(){
-		$('img.bg-img.web').css({'display':'none'})
+		$('img.bg-img.me1').css({'display':'none'})
 	}
 )
 
-$('span.landing.cat.systems').hover(
+$('span.header.more.intro.me2').hover(
 	function(){
 		$('img.bg-img').css({'display':'none'})
-		$('img.bg-img.systems').css({'display':'block'})
+		$('img.bg-img.me2').css({'display':'block'})
 	}, function(){
-		$('img.bg-img.systems').css({'display':'none'})
+		$('img.bg-img.me2').css({'display':'none'})
 	}
 )
 
-$('span.landing.cat.interact').hover(
+$('span.header.more.intro.me3').hover(
 	function(){
 		$('img.bg-img').css({'display':'none'})
-		$('img.bg-img.interact').css({'display':'block'})
+		$('img.bg-img.me3').css({'display':'block'})
 	}, function(){
-		$('img.bg-img.interact').css({'display':'none'})
+		$('img.bg-img.me3').css({'display':'none'})
 	}
 )
 
-$('span.landing.cat.book').hover(
+$('span.header.more.intro.degree').hover(
 	function(){
 		$('img.bg-img').css({'display':'none'})
-		$('img.bg-img.book').css({'display':'block'})
+		$('img.bg-img.degree').css({'display':'block'})
 	}, function(){
-		$('img.bg-img.book').css({'display':'none'})
+		$('img.bg-img.degree').css({'display':'none'})
 	}
 )
 
-$('span.landing.cat.cool').hover(
+$('span.header.more.intro.piss').hover(
 	function(){
 		$('img.bg-img').css({'display':'none'})
-		$('img.bg-img.cool').css({'display':'block'})
+		$('img.bg-img.piss').css({'display':'block'})
 	}, function(){
-		$('img.bg-img.cool').css({'display':'none'})
+		$('img.bg-img.piss').css({'display':'none'})
 	}
 )
 
-$('span.landing.cat.perform').hover(
+$('span.header.more.intro.desperate-binding').hover(
 	function(){
 		$('img.bg-img').css({'display':'none'})
-		$('img.bg-img.perform').css({'display':'block'})
+		$('img.bg-img.desperate-binding').css({'display':'block'})
 	}, function(){
-		$('img.bg-img.perform').css({'display':'none'})
+		$('img.bg-img.desperate-binding').css({'display':'none'})
 	}
 )
 
-$('span.landing.cat.typeset').hover(
+$('span.header.more.intro.cheesegrater').hover(
 	function(){
 		$('img.bg-img').css({'display':'none'})
-		$('img.bg-img.typeset').css({'display':'block'})
+		$('img.bg-img.cheesegrater').css({'display':'block'})
 	}, function(){
-		$('img.bg-img.typeset').css({'display':'none'})
+		$('img.bg-img.cheesegrater').css({'display':'none'})
 	}
 )
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// CLICK TO ANOTHER PAGE
-
-$('.to-vernacular').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.ee').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$('span.b.ee').css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('.to-da-ge').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.cc').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$('span.b.cc').css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('.to-seminars').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.tt').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$('span.b.tt').css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('.to-rave').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.ff').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$('span.b.ff').css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-
-// CLICK TO VIEW SECTION
-
-$('p.a.about').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.about').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$(this).css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('p.a.contact').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.contact').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$(this).css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('p.a.main-works').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.main').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$(this).css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('p.a.extra').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.extra').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$(this).css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-		// WORKS (CLICK TEXT)
-
-$('span.b.aa').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.aa').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$(this).css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('span.b.bb').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.bb').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$(this).css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('span.b.cc').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.cc').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$(this).css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('span.b.dd').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.dd').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$(this).css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('span.b.ee').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.ee').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$(this).css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('span.b.ff').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.ff').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$(this).css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('span.b.gg').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.gg').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$(this).css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('span.b.hh').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.hh').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$(this).css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('span.b.ii').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.ii').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$(this).css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('span.b.jj').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.jj').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$(this).css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('span.b.kk').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.kk').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$(this).css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('span.b.ll').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.ll').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$(this).css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('span.b.mm').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.mm').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$(this).css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('span.b.nn').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.nn').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$(this).css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('span.b.oo').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.oo').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$(this).css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('span.b.pp').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.pp').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$(this).css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('span.b.qq').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.qq').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$(this).css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('span.b.rr').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.rr').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$(this).css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('span.b.ss').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.ss').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$(this).css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('span.b.tt').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.tt').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$(this).css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('span.b.uu').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.uu').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$(this).css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('span.b.vv').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.vv').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$(this).css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-		// WORKS (CLICK IMAGE)
-
-$('img.main.aa').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.aa').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$('span.b.aa').css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('img.main.bb').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.bb').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$('span.b.bb').css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('img.main.cc').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.cc').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$('span.b.cc').css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('img.main.dd').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.dd').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$('span.b.dd').css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('img.main.ee').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.ee').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$('span.b.ee').css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('img.main.ff').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.ff').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$('span.b.ff').css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('img.main.gg').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.gg').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$('span.b.gg').css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('img.main.hh').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.hh').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$('span.b.hh').css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('img.main.ii').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.ii').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$('span.b.ii').css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('img.main.jj').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.jj').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$('span.b.jj').css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('img.main.kk').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.kk').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$('span.b.kk').css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('img.main.ll').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.ll').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$('span.b.ll').css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('img.main.mm').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.mm').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$('span.b.mm').css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('img.main.nn').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.nn').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$('span.b.nn').css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('img.main.oo').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.oo').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$('span.b.oo').css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('img.main.pp').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.pp').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$('span.b.pp').css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('img.main.qq').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.qq').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$('span.b.qq').css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('img.main.rr').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.rr').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$('span.b.rr').css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('img.main.ss').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.ss').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$('span.b.ss').css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('img.main.tt').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.tt').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$('span.b.tt').css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('img.main.uu').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.uu').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$('span.b.uu').css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-$('img.main.vv').click(function(){
-	$('.content').css({'display':'none'});
-	$('.content.vv').css({'display':'inline'});
-	$('p.a').css({'font-style':'normal'})
-	$('span.b').css({'font-style':'normal'})
-	$('span.b.vv').css({'font-style':'italic'});
-	$('.column.right').scrollTop(0);
-})
-
-
-
-
-
-
-// HOVER OVER LEFT COLUMN TEXT, FLICKER CORRESPONDING RIGHT COLUMN IMAGE
-
-$('span.b.aa').hover(
+$('span.header.more.intro.peels').hover(
 	function(){
-		$('img.aa').addClass('flicker-img');
-		$('span.date.aa').css({'display':'inline'});
-		$('.column.left').css({'margin-bottom':'2rem'});
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.peels').css({'display':'block'})
 	}, function(){
-		$('img.aa').removeClass('flicker-img');
-		$('span.date.aa').css({'display':'none'});
-		$('.column.left').css({'margin-bottom':'0rem'});
+		$('img.bg-img.peels').css({'display':'none'})
 	}
 )
 
-$('span.b.bb').hover(
+$('span.header.more.intro.cake').hover(
 	function(){
-		$('img.bb').addClass('flicker-img');
-		$('span.date.bb').css({'display':'inline'});
-		$('.column.left').css({'margin-bottom':'2rem'});
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.cake').css({'display':'block'})
 	}, function(){
-		$('img.bb').removeClass('flicker-img');
-		$('span.date.bb').css({'display':'none'});
-		$('.column.left').css({'margin-bottom':'0rem'});
+		$('img.bg-img.cake').css({'display':'none'})
 	}
 )
 
-$('span.b.cc').hover(
+$('span.header.more.intro.sans').hover(
 	function(){
-		$('img.cc').addClass('flicker-img');
-		$('span.date.cc').css({'display':'inline'});
-		$('.column.left').css({'margin-bottom':'2rem'});
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.sans').css({'display':'block'})
 	}, function(){
-		$('img.cc').removeClass('flicker-img');
-		$('span.date.cc').css({'display':'none'});
-		$('.column.left').css({'margin-bottom':'0rem'});
+		$('img.bg-img.sans').css({'display':'none'})
 	}
 )
 
-$('span.b.dd').hover(
+
+
+
+
+$('span.header.more.intro.plusplus').hover(
 	function(){
-		$('img.dd').addClass('flicker-img');
-		$('span.date.dd').css({'display':'inline'});
-		$('.column.left').css({'margin-bottom':'2rem'});
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.plusplus').css({'display':'block'})
 	}, function(){
-		$('img.dd').removeClass('flicker-img');
-		$('span.date.dd').css({'display':'none'});
-		$('.column.left').css({'margin-bottom':'0rem'});
+		$('img.bg-img.plusplus').css({'display':'none'})
 	}
 )
 
-$('span.b.ee').hover(
+$('span.header.more.intro.nameframe').hover(
 	function(){
-		$('img.ee').addClass('flicker-img');
-		$('span.date.ee').css({'display':'inline'});
-		$('.column.left').css({'margin-bottom':'2rem'});
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.nameframe').css({'display':'block'})
 	}, function(){
-		$('img.ee').removeClass('flicker-img');
-		$('span.date.ee').css({'display':'none'});
-		$('.column.left').css({'margin-bottom':'0rem'});
+		$('img.bg-img.nameframe').css({'display':'none'})
 	}
 )
 
-$('span.b.ff').hover(
+$('span.header.more.intro.davinci').hover(
 	function(){
-		$('img.ff').addClass('flicker-img');
-		$('span.date.ff').css({'display':'inline'});
-		$('.column.left').css({'margin-bottom':'2rem'});
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.davinci').css({'display':'block'})
 	}, function(){
-		$('img.ff').removeClass('flicker-img');
-		$('span.date.ff').css({'display':'none'});
-		$('.column.left').css({'margin-bottom':'0rem'});
+		$('img.bg-img.davinci').css({'display':'none'})
 	}
 )
 
-$('span.b.gg').hover(
+$('span.header.more.intro.perfectone').hover(
 	function(){
-		$('img.gg').addClass('flicker-img');
-		$('span.date.gg').css({'display':'inline'});
-		$('.column.left').css({'margin-bottom':'2rem'});
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.perfectone').css({'display':'block'})
 	}, function(){
-		$('img.gg').removeClass('flicker-img');
-		$('span.date.gg').css({'display':'none'});
-		$('.column.left').css({'margin-bottom':'0rem'});
+		$('img.bg-img.perfectone').css({'display':'none'})
 	}
 )
 
-$('span.b.hh').hover(
+$('span.header.more.intro.chalet').hover(
 	function(){
-		$('img.hh').addClass('flicker-img');
-		$('span.date.hh').css({'display':'inline'});
-		$('.column.left').css({'margin-bottom':'2rem'});
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.chalet').css({'display':'block'})
 	}, function(){
-		$('img.hh').removeClass('flicker-img');
-		$('span.date.hh').css({'display':'none'});
-		$('.column.left').css({'margin-bottom':'0rem'});
+		$('img.bg-img.chalet').css({'display':'none'})
 	}
 )
 
-$('span.b.ii').hover(
+$('span.header.more.intro.nicki').hover(
 	function(){
-		$('img.ii').addClass('flicker-img');
-		$('span.date.ii').css({'display':'inline'});
-		$('.column.left').css({'margin-bottom':'2rem'});
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.nicki').css({'display':'block'})
 	}, function(){
-		$('img.ii').removeClass('flicker-img');
-		$('span.date.ii').css({'display':'none'});
-		$('.column.left').css({'margin-bottom':'0rem'});
+		$('img.bg-img.nicki').css({'display':'none'})
 	}
 )
 
-$('span.b.jj').hover(
+$('span.header.more.intro.papercups').hover(
 	function(){
-		$('img.jj').addClass('flicker-img');
-		$('span.date.jj').css({'display':'inline'});
-		$('.column.left').css({'margin-bottom':'2rem'});
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.papercups').css({'display':'block'})
 	}, function(){
-		$('img.jj').removeClass('flicker-img');
-		$('span.date.jj').css({'display':'none'});
-		$('.column.left').css({'margin-bottom':'0rem'});
+		$('img.bg-img.papercups').css({'display':'none'})
 	}
 )
 
-$('span.b.kk').hover(
+$('span.header.more.intro.ryu2').hover(
 	function(){
-		$('img.kk').addClass('flicker-img');
-		$('span.date.kk').css({'display':'inline'});
-		$('.column.left').css({'margin-bottom':'2rem'});
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.ryu2').css({'display':'block'})
 	}, function(){
-		$('img.kk').removeClass('flicker-img');
-		$('span.date.kk').css({'display':'none'});
-		$('.column.left').css({'margin-bottom':'0rem'});
+		$('img.bg-img.ryu2').css({'display':'none'})
 	}
 )
 
-$('span.b.ll').hover(
+$('span.header.more.intro.ryu4').hover(
 	function(){
-		$('img.ll').addClass('flicker-img');
-		$('span.date.ll').css({'display':'inline'});
-		$('.column.left').css({'margin-bottom':'2rem'});
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.ryu4').css({'display':'block'})
 	}, function(){
-		$('img.ll').removeClass('flicker-img');
-		$('span.date.ll').css({'display':'none'});
-		$('.column.left').css({'margin-bottom':'0rem'});
+		$('img.bg-img.ryu4').css({'display':'none'})
 	}
 )
 
-$('span.b.mm').hover(
+$('span.header.more.intro.ryu7').hover(
 	function(){
-		$('img.mm').addClass('flicker-img');
-		$('span.date.mm').css({'display':'inline'});
-		$('.column.left').css({'margin-bottom':'2rem'});
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.ryu7').css({'display':'block'})
 	}, function(){
-		$('img.mm').removeClass('flicker-img');
-		$('span.date.mm').css({'display':'none'});
-		$('.column.left').css({'margin-bottom':'0rem'});
+		$('img.bg-img.ryu7').css({'display':'none'})
 	}
 )
 
-$('span.b.nn').hover(
+$('span.header.more.intro.ryu9').hover(
 	function(){
-		$('img.nn').addClass('flicker-img');
-		$('span.date.nn').css({'display':'inline'});
-		$('.column.left').css({'margin-bottom':'2rem'});
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.ryu9').css({'display':'block'})
 	}, function(){
-		$('img.nn').removeClass('flicker-img');
-		$('span.date.nn').css({'display':'none'});
-		$('.column.left').css({'margin-bottom':'0rem'});
+		$('img.bg-img.ryu9').css({'display':'none'})
 	}
 )
 
-$('span.b.oo').hover(
+$('span.header.more.intro.ryu12').hover(
 	function(){
-		$('img.oo').addClass('flicker-img');
-		$('span.date.oo').css({'display':'inline'});
-		$('.column.left').css({'margin-bottom':'2rem'});
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.ryu12').css({'display':'block'})
 	}, function(){
-		$('img.oo').removeClass('flicker-img');
-		$('span.date.oo').css({'display':'none'});
-		$('.column.left').css({'margin-bottom':'0rem'});
+		$('img.bg-img.ryu12').css({'display':'none'})
 	}
 )
 
-$('span.b.pp').hover(
+$('span.header.more.intro.subway').hover(
 	function(){
-		$('img.pp').addClass('flicker-img');
-		$('span.date.pp').css({'display':'inline'});
-		$('.column.left').css({'margin-bottom':'2rem'});
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.subway').css({'display':'block'})
 	}, function(){
-		$('img.pp').removeClass('flicker-img');
-		$('span.date.pp').css({'display':'none'});
-		$('.column.left').css({'margin-bottom':'0rem'});
+		$('img.bg-img.subway').css({'display':'none'})
 	}
 )
 
-$('span.b.qq').hover(
+$('span.header.more.intro.ounf').hover(
 	function(){
-		$('img.qq').addClass('flicker-img');
-		$('span.date.qq').css({'display':'inline'});
-		$('.column.left').css({'margin-bottom':'2rem'});
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.ounf').css({'display':'block'})
 	}, function(){
-		$('img.qq').removeClass('flicker-img');
-		$('span.date.qq').css({'display':'none'});
-		$('.column.left').css({'margin-bottom':'0rem'});
+		$('img.bg-img.ounf').css({'display':'none'})
 	}
 )
 
-$('span.b.rr').hover(
+$('span.header.more.intro.animalhospital').hover(
 	function(){
-		$('img.rr').addClass('flicker-img');
-		$('span.date.rr').css({'display':'inline'});
-		$('.column.left').css({'margin-bottom':'2rem'});
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.animalhospital').css({'display':'block'})
 	}, function(){
-		$('img.rr').removeClass('flicker-img');
-		$('span.date.rr').css({'display':'none'});
-		$('.column.left').css({'margin-bottom':'0rem'});
-	}
-)
-
-$('span.b.ss').hover(
-	function(){
-		$('img.ss').addClass('flicker-img');
-		$('span.date.ss').css({'display':'inline'});
-		$('.column.left').css({'margin-bottom':'2rem'});
-	}, function(){
-		$('img.ss').removeClass('flicker-img');
-		$('span.date.ss').css({'display':'none'});
-		$('.column.left').css({'margin-bottom':'0rem'});
-	}
-)
-
-$('span.b.tt').hover(
-	function(){
-		$('img.tt').addClass('flicker-img');
-		$('span.date.tt').css({'display':'inline'});
-		$('.column.left').css({'margin-bottom':'2rem'});
-	}, function(){
-		$('img.tt').removeClass('flicker-img');
-		$('span.date.tt').css({'display':'none'});
-		$('.column.left').css({'margin-bottom':'0rem'});
-	}
-)
-
-$('span.b.uu').hover(
-	function(){
-		$('img.uu').addClass('flicker-img');
-		$('span.date.uu').css({'display':'inline'});
-		$('.column.left').css({'margin-bottom':'2rem'});
-	}, function(){
-		$('img.uu').removeClass('flicker-img');
-		$('span.date.uu').css({'display':'none'});
-		$('.column.left').css({'margin-bottom':'0rem'});
-	}
-)
-
-$('span.b.vv').hover(
-	function(){
-		$('img.vv').addClass('flicker-img');
-		$('span.date.vv').css({'display':'inline'});
-		$('.column.left').css({'margin-bottom':'2rem'});
-	}, function(){
-		$('img.vv').removeClass('flicker-img');
-		$('span.date.vv').css({'display':'none'});
-		$('.column.left').css({'margin-bottom':'0rem'});
+		$('img.bg-img.animalhospital').css({'display':'none'})
 	}
 )
 
 
 
 
-// HOVER OVER RIGHT COLUMN IMAGE, FLICKER LEFT COLUMN TEXT
 
-$('img.aa').hover(
-	function(){
-		$('span.b.aa').addClass('flicker-txt');
-		$('span.date.aa').css({'display':'inline'});
-	}, function(){
-		$('span.b.aa').removeClass('flicker-txt');
-		$('span.date.aa').css({'display':'none'});
-	}
-)
 
-$('img.bb').hover(
-	function(){
-		$('span.b.bb').addClass('flicker-txt');
-		$('span.date.bb').css({'display':'inline'});
-	}, function(){
-		$('span.b.bb').removeClass('flicker-txt');
-		$('span.date.bb').css({'display':'none'});
-	}
-)
 
-$('img.cc').hover(
-	function(){
-		$('span.b.cc').addClass('flicker-txt');
-		$('span.date.cc').css({'display':'inline'});
-	}, function(){
-		$('span.b.cc').removeClass('flicker-txt');
-		$('span.date.cc').css({'display':'none'});
-	}
-)
 
-$('img.dd').hover(
-	function(){
-		$('span.b.dd').addClass('flicker-txt');
-		$('span.date.dd').css({'display':'inline'});
-	}, function(){
-		$('span.b.dd').removeClass('flicker-txt');
-		$('span.date.dd').css({'display':'none'});
-	}
-)
 
-$('img.ee').hover(
-	function(){
-		$('span.b.ee').addClass('flicker-txt');
-		$('span.date.ee').css({'display':'inline'});
-	}, function(){
-		$('span.b.ee').removeClass('flicker-txt');
-		$('span.date.ee').css({'display':'none'});
-	}
-)
 
-$('img.ff').hover(
-	function(){
-		$('span.b.ff').addClass('flicker-txt');
-		$('span.date.ff').css({'display':'inline'});
-	}, function(){
-		$('span.b.ff').removeClass('flicker-txt');
-		$('span.date.ff').css({'display':'none'});
-	}
-)
 
-$('img.gg').hover(
-	function(){
-		$('span.b.gg').addClass('flicker-txt');
-		$('span.date.gg').css({'display':'inline'});
-	}, function(){
-		$('span.b.gg').removeClass('flicker-txt');
-		$('span.date.gg').css({'display':'none'});
-	}
-)
-
-$('img.hh').hover(
-	function(){
-		$('span.b.hh').addClass('flicker-txt');
-		$('span.date.hh').css({'display':'inline'});
-	}, function(){
-		$('span.b.hh').removeClass('flicker-txt');
-		$('span.date.hh').css({'display':'none'});
-	}
-)
-
-$('img.ii').hover(
-	function(){
-		$('span.b.ii').addClass('flicker-txt');
-		$('span.date.ii').css({'display':'inline'});
-	}, function(){
-		$('span.b.ii').removeClass('flicker-txt');
-		$('span.date.ii').css({'display':'none'});
-	}
-)
-
-$('img.jj').hover(
-	function(){
-		$('span.b.jj').addClass('flicker-txt');
-		$('span.date.jj').css({'display':'inline'});
-	}, function(){
-		$('span.b.jj').removeClass('flicker-txt');
-		$('span.date.jj').css({'display':'none'});
-	}
-)
-
-$('img.kk').hover(
-	function(){
-		$('span.b.kk').addClass('flicker-txt');
-		$('span.date.kk').css({'display':'inline'});
-	}, function(){
-		$('span.b.kk').removeClass('flicker-txt');
-		$('span.date.kk').css({'display':'none'});
-	}
-)
-
-$('img.ll').hover(
-	function(){
-		$('span.b.ll').addClass('flicker-txt');
-		$('span.date.ll').css({'display':'inline'});
-	}, function(){
-		$('span.b.ll').removeClass('flicker-txt');
-		$('span.date.ll').css({'display':'none'});
-	}
-)
-
-$('img.mm').hover(
-	function(){
-		$('span.b.mm').addClass('flicker-txt');
-		$('span.date.mm').css({'display':'inline'});
-	}, function(){
-		$('span.b.mm').removeClass('flicker-txt');
-		$('span.date.mm').css({'display':'none'});
-	}
-)
-
-$('img.nn').hover(
-	function(){
-		$('span.b.nn').addClass('flicker-txt');
-		$('span.date.nn').css({'display':'inline'});
-	}, function(){
-		$('span.b.nn').removeClass('flicker-txt');
-		$('span.date.nn').css({'display':'none'});
-	}
-)
-
-$('img.oo').hover(
-	function(){
-		$('span.b.oo').addClass('flicker-txt');
-		$('span.date.oo').css({'display':'inline'});
-	}, function(){
-		$('span.b.oo').removeClass('flicker-txt');
-		$('span.date.oo').css({'display':'none'});
-	}
-)
-
-$('img.pp').hover(
-	function(){
-		$('span.b.pp').addClass('flicker-txt');
-		$('span.date.pp').css({'display':'inline'});
-	}, function(){
-		$('span.b.pp').removeClass('flicker-txt');
-		$('span.date.pp').css({'display':'none'});
-	}
-)
-
-$('img.qq').hover(
-	function(){
-		$('span.b.qq').addClass('flicker-txt');
-		$('span.date.qq').css({'display':'inline'});
-	}, function(){
-		$('span.b.qq').removeClass('flicker-txt');
-		$('span.date.qq').css({'display':'none'});
-	}
-)
-
-$('img.rr').hover(
-	function(){
-		$('span.b.rr').addClass('flicker-txt');
-		$('span.date.rr').css({'display':'inline'});
-	}, function(){
-		$('span.b.rr').removeClass('flicker-txt');
-		$('span.date.rr').css({'display':'none'});
-	}
-)
-
-$('img.ss').hover(
-	function(){
-		$('span.b.ss').addClass('flicker-txt');
-		$('span.date.ss').css({'display':'inline'});
-	}, function(){
-		$('span.b.ss').removeClass('flicker-txt');
-		$('span.date.ss').css({'display':'none'});
-	}
-)
-
-$('img.tt').hover(
-	function(){
-		$('span.b.tt').addClass('flicker-txt');
-		$('span.date.tt').css({'display':'inline'});
-	}, function(){
-		$('span.b.tt').removeClass('flicker-txt');
-		$('span.date.tt').css({'display':'none'});
-	}
-)
-
-$('img.uu').hover(
-	function(){
-		$('span.b.uu').addClass('flicker-txt');
-		$('span.date.uu').css({'display':'inline'});
-	}, function(){
-		$('span.b.uu').removeClass('flicker-txt');
-		$('span.date.uu').css({'display':'none'});
-	}
-)
-
-$('img.vv').hover(
-	function(){
-		$('span.b.vv').addClass('flicker-txt');
-		$('span.date.vv').css({'display':'inline'});
-	}, function(){
-		$('span.b.vv').removeClass('flicker-txt');
-		$('span.date.vv').css({'display':'none'});
-	}
-)
