@@ -8,6 +8,10 @@ $(document).mousemove(function(e){
 	$('.view-live-site').css({'top': e.clientY + 5, 'left': e.clientX + 5})
 })
 
+$(document).mousemove(function(e){
+	$('.download').css({'top': e.clientY + 5, 'left': e.clientX + 5})
+})
+
 $('.outside').hover(
 	function(){
 		$('.hi-concrete').css({'display':'none'})
@@ -15,6 +19,16 @@ $('.outside').hover(
 	}, function(){
 		$('.hi-concrete').css({'display':'block'})
 		$('.view-live-site').css({'display':'none'})
+	}
+)
+
+$('.cv').hover(
+	function(){
+		$('.hi-concrete').css({'display':'none'})
+		$('.download').css({'display':'block'})
+	}, function(){
+		$('.hi-concrete').css({'display':'block'})
+		$('.download').css({'display':'none'})
 	}
 )
 
@@ -294,6 +308,343 @@ $('.header.more.intro.lpl11').hover(
 		$('.hi-concrete').css({'display':'block'})
 	}
 )
+
+$('.header.more.intro.lpl12').hover(
+	function(){
+		$('.hoverimg.lpl12').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.lpl12').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.save1').hover(
+	function(){
+		$('.hoverimg.save1').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.save1').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.save2').hover(
+	function(){
+		$('.hoverimg.save2').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.save2').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.save3').hover(
+	function(){
+		$('.hoverimg.save3').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.save3').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.save4').hover(
+	function(){
+		$('.hoverimg.save4').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.save4').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.save-process1').hover(
+	function(){
+		$('.hoverimg.save-process1').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.save-process1').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.save-process2').hover(
+	function(){
+		$('.hoverimg.save-process2').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.save-process2').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.save-process3').hover(
+	function(){
+		$('.hoverimg.save-process3').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.save-process3').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.cover1').hover(
+	function(){
+		$('.hoverimg.cover1').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.cover1').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.cover2').hover(
+	function(){
+		$('.hoverimg.cover2').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.cover2').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.cover3').hover(
+	function(){
+		$('.hoverimg.cover3').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.cover3').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.cover4').hover(
+	function(){
+		$('.hoverimg.cover4').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.cover4').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.cover5').hover(
+	function(){
+		$('.hoverimg.cover5').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.cover5').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.cover6').hover(
+	function(){
+		$('.hoverimg.cover6').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.cover6').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.cover7').hover(
+	function(){
+		$('.hoverimg.cover7').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.cover7').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.cover-app1').hover(
+	function(){
+		$('.hoverimg.cover-app1').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.cover-app1').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.cover-app2').hover(
+	function(){
+		$('.hoverimg.cover-app2').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.cover-app2').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.cover-app3').hover(
+	function(){
+		$('.hoverimg.cover-app3').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.cover-app3').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.cover-app4').hover(
+	function(){
+		$('.hoverimg.cover-app4').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.cover-app4').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.cover-app5').hover(
+	function(){
+		$('.hoverimg.cover-app5').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.cover-app5').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.cover-app6').hover(
+	function(){
+		$('.hoverimg.cover-app6').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.cover-app6').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.cover-app7').hover(
+	function(){
+		$('.hoverimg.cover-app7').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.cover-app7').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.cover-app8').hover(
+	function(){
+		$('.hoverimg.cover-app8').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.cover-app8').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.essen1').hover(
+	function(){
+		$('.hoverimg.essen1').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.essen1').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.essen2').hover(
+	function(){
+		$('.hoverimg.essen2').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.essen2').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.essen3').hover(
+	function(){
+		$('.hoverimg.essen3').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.essen3').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.essen4').hover(
+	function(){
+		$('.hoverimg.essen4').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.essen4').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.linksys-exp1').hover(
+	function(){
+		$('.hoverimg.linksys-exp1').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.linksys-exp1').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.linksys-exp2').hover(
+	function(){
+		$('.hoverimg.linksys-exp2').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.linksys-exp2').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.linksys-exp3').hover(
+	function(){
+		$('.hoverimg.linksys-exp3').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.linksys-exp3').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+
+
+
+
+
+
 
 
 
@@ -865,7 +1216,131 @@ $('span.header.more.intro.animalhospital').hover(
 	}
 )
 
+$('span.header.more.intro.toiling1').hover(
+	function(){
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.toiling1').css({'display':'block'})
+	}, function(){
+		$('img.bg-img.toiling1').css({'display':'none'})
+	}
+)
 
+$('span.header.more.intro.toiling2').hover(
+	function(){
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.toiling2').css({'display':'block'})
+	}, function(){
+		$('img.bg-img.toiling2').css({'display':'none'})
+	}
+)
+
+$('span.header.more.intro.toiling3').hover(
+	function(){
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.toiling3').css({'display':'block'})
+	}, function(){
+		$('img.bg-img.toiling3').css({'display':'none'})
+	}
+)
+
+$('span.header.more.intro.playing1').hover(
+	function(){
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.playing1').css({'display':'block'})
+	}, function(){
+		$('img.bg-img.playing1').css({'display':'none'})
+	}
+)
+
+$('span.header.more.intro.playing2').hover(
+	function(){
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.playing2').css({'display':'block'})
+	}, function(){
+		$('img.bg-img.playing2').css({'display':'none'})
+	}
+)
+
+$('span.header.more.intro.book1').hover(
+	function(){
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.book1').css({'display':'block'})
+	}, function(){
+		$('img.bg-img.book1').css({'display':'none'})
+	}
+)
+
+$('span.header.more.intro.book2').hover(
+	function(){
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.book2').css({'display':'block'})
+	}, function(){
+		$('img.bg-img.book2').css({'display':'none'})
+	}
+)
+
+$('span.header.more.intro.book3').hover(
+	function(){
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.book3').css({'display':'block'})
+	}, function(){
+		$('img.bg-img.book3').css({'display':'none'})
+	}
+)
+
+$('span.header.more.intro.book4').hover(
+	function(){
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.book4').css({'display':'block'})
+	}, function(){
+		$('img.bg-img.book4').css({'display':'none'})
+	}
+)
+
+$('span.header.more.intro.book5').hover(
+	function(){
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.book5').css({'display':'block'})
+	}, function(){
+		$('img.bg-img.book5').css({'display':'none'})
+	}
+)
+
+$('span.header.more.intro.searching1').hover(
+	function(){
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.searching1').css({'display':'block'})
+	}, function(){
+		$('img.bg-img.searching1').css({'display':'none'})
+	}
+)
+
+$('span.header.more.intro.searching2').hover(
+	function(){
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.searching2').css({'display':'block'})
+	}, function(){
+		$('img.bg-img.searching2').css({'display':'none'})
+	}
+)
+
+$('span.header.more.intro.hoarding1').hover(
+	function(){
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.hoarding1').css({'display':'block'})
+	}, function(){
+		$('img.bg-img.hoarding1').css({'display':'none'})
+	}
+)
+
+$('span.header.more.intro.hoarding2').hover(
+	function(){
+		$('img.bg-img').css({'display':'none'})
+		$('img.bg-img.hoarding2').css({'display':'block'})
+	}, function(){
+		$('img.bg-img.hoarding2').css({'display':'none'})
+	}
+)
 
 
 
