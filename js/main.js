@@ -488,6 +488,39 @@ $('.header.more.intro.cover7').hover(
 	}
 )
 
+$('.header.more.intro.cover8').hover(
+	function(){
+		$('.hoverimg.cover8').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.cover8').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.cover9').hover(
+	function(){
+		$('.hoverimg.cover9').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.cover9').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
+$('.header.more.intro.cover10').hover(
+	function(){
+		$('.hoverimg.cover10').css({'display':'block'})
+		$('.hi-concrete').css({'display':'none'})
+	},
+	function(){
+		$('.hoverimg.cover10').css({'display':'none'})
+		$('.hi-concrete').css({'display':'block'})
+	}
+)
+
 $('.header.more.intro.cover-app1').hover(
 	function(){
 		$('.hoverimg.cover-app1').css({'display':'block'})
