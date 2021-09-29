@@ -2176,17 +2176,6 @@ $('span.header.more.intro.save-intro').hover(
 	}
 )
 
-$('span.header.more.intro.happen').hover(
-	function(){
-		$('img.bg-img').css({'display':'none'})
-		$('video.bg-img').css({'display':'none'})
-		$('video.bg-img.happen').css({'display':'block'})
-	}, function(){
-		$('img.bg-img.happen').css({'display':'none'})
-		$('video.bg-img.happen').css({'display':'none'})
-	}
-)
-
 $('span.header.more.intro.order').hover(
 	function(){
 		$('img.bg-img').css({'display':'none'})
@@ -2214,8 +2203,20 @@ $('span.header.more.intro.settingup1').hover(
 	}
 )
 
+$('span.header.more.intro.happen').hover(
+	function(){
+		$('img.bg-img').css({'display':'none'})
+		$('video.bg-img').css({'display':'none'})
+		$('video.bg-img.happen').css({'display':'block'})
+	}, function(){
+		$('img.bg-img.happen').css({'display':'none'})
+		$('video.bg-img.happen').css({'display':'none'})
+	}
+)
+
 $('span.header.more.intro.everything').hover(
 	function(){
+		// alert('hi')
 		$('img.bg-img').css({'display':'none'})
 		$('video.bg-img').css({'display':'none'})
 		$('video.bg-img.everything').css({'display':'block'})
