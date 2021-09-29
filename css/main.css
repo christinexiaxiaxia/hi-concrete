@@ -285,7 +285,8 @@ td {
 
 a.outside,
 a.cv,
-a.poem {
+a.poem,
+a.appendix {
 	cursor: alias;
 }
 
@@ -311,7 +312,8 @@ span.date {
 
 .footer,
 .in-page-footer,
-.caption {
+.caption,
+.appendix {
 	letter-spacing: 0.01rem;
 }
 
@@ -342,6 +344,11 @@ ul {
 	transform: skewX(-40deg) scaleX(1.5);
 }
 
+.appendix {
+	line-height: 1rem;
+	padding-top: -2rem;
+}
+
 
 
 /*HOVER STUFF*/
@@ -370,7 +377,7 @@ img {
 	z-index: -100;
 }
 
-img.bg-img {
+.bg-img {
 	display: none;
 	height: 100%;
 	width: auto;

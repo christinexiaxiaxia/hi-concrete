@@ -1,0 +1,79 @@
+@keyframes back-n-forth {
+	0% {right: 0; opacity: 1}
+	30% {right: 0.5rem; opacity: 1}
+	100% {right: 0; opacity: 1}
+}
+
+@font-face {
+	font-family: wremena-light;
+	src:  url(../fonts/WremenaLight.woff);
+}
+
+@font-face {
+	font-family: wremena-regular;
+	src:  url(../fonts/WremenaRegular.woff);
+}
+
+
+/*STRUCTURE*/
+
+* {
+	font-family: wremena-light;
+	font-size: 18px;
+	text-align: center;
+
+	color: rgba(0, 100, 0, 1.0);
+}
+
+body {
+	scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 0.25rem;
+    height: 0.25rem;
+    background-color: white;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 100, 0, 1.0);
+}
+
+::-moz-selection {
+  color: rgba(255,255,255,1);
+  background-color: rgba(0,100,0,0.99);
+}
+::selection {
+  color: rgba(255,255,255,1);
+  background-color: rgba(0,100,0,0.99);
+}
+
+
+
+
+
+.appendix-wrapper {
+	position: absolute;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+
+	width: calc(100vw - 4rem);
+	height: auto;
+	top: 0;
+	left: 0;
+	padding: 2rem;
+}
+
+.item {
+	/*width: calc(25vw - 4rem);*/
+	height: 20rem;
+	margin: auto;
+	padding: 2rem;
+}
+
+img {
+	position: relative;
+	height: 100%;
+}
+
+
+
