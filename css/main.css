@@ -107,6 +107,7 @@ table {
 
 	height: auto;
 	width: 100%;
+	margin-bottom: 1.8rem;
 
 	border: 0px solid white;
 }
@@ -147,7 +148,7 @@ td {
 	position: fixed;
 	bottom: 5rem;
 	width: calc(0% + 14rem);
-	margin-left: calc(50% - 7rem);
+	margin-left: calc(50% - 7.5rem);
 	margin-right: calc(50% - 7rem);
 
 	z-index: -100;
@@ -163,7 +164,20 @@ td {
 	position: absolute;
 	bottom: 1.9rem;
 	width: calc(0% + 14rem);
-	margin-left: calc(50% - 8.5rem);
+	margin-left: calc(50% - 9rem);
+	margin-right: calc(50% - 7rem);
+
+	z-index: 100;
+	transition-duration: 0.3s;
+
+	/*background-color: yellow;*/
+}
+
+.in-page-footer-b {
+	position: absolute;
+	bottom: 1.9rem;
+	width: calc(0% + 14rem);
+	margin-left: calc(50% - 7rem);
 	margin-right: calc(50% - 7rem);
 
 	z-index: 100;
@@ -241,20 +255,37 @@ td {
 	background-color: white;
 }
 
+.read-full-poem {
+	display: none;
+	position: fixed;
+	padding: 5px 5px 4px 5px;
+
+	font-family: wremena-regular;
+	font-size: 0.6rem;
+	line-height: 0.6rem;
+	/*letter-spacing: 0.01rem;*/
+	text-align: center;
+	white-space: nowrap;
+
+	border: 1px solid rgba(0, 100, 0, 1.0);
+	background-color: white;
+}
+
 .more {
 	cursor: zoom-in;
 }
 
 .fixed.chapter {
-	cursor: pointer;
+	/*cursor: pointer;*/
 }
 
 .in-page.chapter {
-	cursor: pointer;
+	/*cursor: pointer;*/
 }
 
 a.outside,
-a.cv {
+a.cv,
+a.poem {
 	cursor: alias;
 }
 
@@ -366,9 +397,9 @@ img.reg.wide {
 
 
 iframe {
-	width: 100%;
-	height: 25vw;
-	margin: 0rem 0rem 1rem 0rem;
+	width: calc(100% - 9rem);
+	height: 21.3vw;
+	margin: 0rem;
 }
 
 .hoverimg {
